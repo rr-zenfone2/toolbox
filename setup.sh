@@ -43,7 +43,7 @@ schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev schedtool g++-multilib l
 lib32readline-gplv2-dev gcc-multilib liblz4-* pngquant ncurses-dev texinfo gcc gperf patch libtool \
 automake g++ gawk subversion expat libexpat1-dev python-all-dev libgcc1:i386 bc libcloog-isl-dev \
 libcap-dev autoconf libgmp-dev build-essential gcc-multilib g++-multilib pkg-config libmpc-dev libmpfr-dev lzma* \
-liblzma* w3m phablet-tools android-tools-adb screen maven tmux
+liblzma* w3m phablet-tools android-tools-adb screen maven tmux yasm
 tput setaf 3
 	sleep 1
 	echo  
