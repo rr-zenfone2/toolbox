@@ -125,14 +125,14 @@ clean-cm() {
 
 # -------------------------
 
-alias build-Z008='build-cm Z008'
-alias build-Z008-eng='build-cm Z008 cm_Z008-eng'
-alias build-Z008-boot='build-cm-boot Z008'
+alias build-Z008='start-cm-13.0 && build-cm Z008'
+alias build-Z008-eng='start-cm-13.0 && build-cm Z008 cm_Z008-eng'
+alias build-Z008-boot='start-cm-13.0 && build-cm-boot Z008'
 
-alias build-rr-Z00A='build-rr Z00A'
-alias build-Z00A-eng='build-rr Z00A cm_Z00A-eng'
-alias build-Z00A-boot='build-rr-boot Z00A'
+alias build-rr-Z00A='start-rr-13.0 && build-rr Z00A'
+alias build-Z00A-eng='start-rr-13.0 && build-rr Z00A cm_Z00A-eng'
+alias build-Z00A-boot='start-rr-13.0 && build-rr-boot Z00A'
 
-alias build-Z00A='build-cm Z00A'
-alias build-Z00A-eng='build-cm Z00A cm_Z00A-eng'
-alias build-Z00A-boot='build-cm-boot Z00A'
+alias build-Z00A='start-cm-13.0 && build-cm Z00A'
+alias build-Z00A-eng='start-cm-13.0 && build-cm Z00A cm_Z00A-eng'
+alias build-Z00A-boot='start-cm-13.0 && build-cm-boot Z00A'
